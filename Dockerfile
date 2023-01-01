@@ -1,6 +1,6 @@
-FROM alpine
+FROM openjdk
 
-WORKDIR /app
+WORKDIR /application
 
 COPY karim.java .
 
